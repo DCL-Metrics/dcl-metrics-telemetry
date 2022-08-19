@@ -40,6 +40,30 @@ export default function Header() {
             <Link href="/realtime">
               <FormattedMessage id="label.realtime" defaultMessage="Realtime" />
             </Link>
+            <a
+              className={styles.textLink}
+              href="https://dashboard.usefixie.com/#/logs/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FormattedMessage id="label.vital" defaultMessage="Fixie Log" />
+            </a>
+            <a
+              className={styles.textLink}
+              href="https://sentry.io/organizations/dcl-metrics/projects/dcl-metrics-fe/?project=6660841"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FormattedMessage id="label.vital" defaultMessage="Sentry FE" />
+            </a>
+            <a
+              className={styles.textLink}
+              href="https://sentry.io/organizations/dcl-metrics/projects/dcl-metrics-be/?project=6668384"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FormattedMessage id="label.vital" defaultMessage="Sentry BE" />
+            </a>
             <Link href="/settings">
               <FormattedMessage id="label.settings" defaultMessage="Settings" />
             </Link>

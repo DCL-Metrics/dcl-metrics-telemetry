@@ -79,7 +79,7 @@ select {
 a,
 a:active,
 a:visited {
-  color: var(--primary400);
+  color: var(--gray900);
 }
 
 input[type='text'],
